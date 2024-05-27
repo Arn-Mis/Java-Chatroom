@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.oop5.oop_java_5.Serverside_controller">
+   <children>
+      <Button fx:id="onButton" layoutX="129.0" layoutY="428.0" mnemonicParsing="false" onAction="#onEnableAction" prefHeight="58.0" prefWidth="169.0" text="Turn on">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <Button fx:id="offButton" layoutX="133.0" layoutY="502.0" mnemonicParsing="false" onAction="#onDisableAction" prefHeight="57.0" prefWidth="166.0" text="Turn Off">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Label layoutX="91.0" layoutY="83.0" text="Server IP:">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="91.0" layoutY="156.0" text="Server Port:">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="88.0" layoutY="240.0" text="Server Status:">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="serverActivityInfo" layoutX="347.0" layoutY="241.0" text="Inactive">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="serverPortInfo" layoutX="307.0" layoutY="161.0">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="serverIPInfo" layoutX="279.0" layoutY="82.0">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
